@@ -51,18 +51,17 @@ img {
   grid-column-start: 1;
   grid-row: 2;
 }
-/* Tablet: 768px o más */
+
 @media (min-width: 768px) {
   .exercice {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    align-items: center;
   }
 }
 
-/* Desktop: 1024px o más */
 @media (min-width: 1024px) {
   .exercice {
+    grid-template-columns: 1fr 2fr;
     gap: 3rem;
   }
 }
