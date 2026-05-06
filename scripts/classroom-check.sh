@@ -81,7 +81,6 @@ if not pattern.search(text):
 
 print("CORRECTO")
 PY
-    ok
     ;;
 
   all)
